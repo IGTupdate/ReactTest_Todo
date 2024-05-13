@@ -9,7 +9,7 @@ import './index.css';
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
+      <div className="App bg-white rounded shadow p-6 mx-auto mt-5 w-full lg:w-3/4 lg:max-w-lg">
         <AddTodoForm />
         <TodoListContainer />
       </div>

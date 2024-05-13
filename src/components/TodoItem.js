@@ -14,7 +14,7 @@ const TodoItem = ({ todo, toggleTodo }) => {
         {todo.title}
       </span>
       {todo.description && (
-        <p className="ml-4 text-gray-600">{todo.description}</p>
+        <p className="ml-3 text-gray-600">{todo.description}</p>
       )}
     </li>
   );
